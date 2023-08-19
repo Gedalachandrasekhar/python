@@ -1,0 +1,10 @@
+1.change first vowels position to consonents
+2.remove the duplicate words entire paragrahs and add the duplicate to a new paragraphs
+3.replace the first and last word of paragraph
+4.for each and paragraph create a duplicte paragraph by keep the word in assending order
+5.change the line of paragraph in reverse
+Liam and I ran my little bakery Biscotti together. Although I was the one who rented this place with some money my mother had left me, managing it would be impossible without Liam's help. He was my head chef because he had taken a culinary course, just so he could help me run it.
+While I was checking the grocery, I heard a sweet voice that I instantly recognised.
+Cara Parker was the sweetest kid ever, with her long blonde hair, chubby cheeks and big blue eyes. She was like a little ball of joy, who always brightened my day with her huge smile.
+Immediately, I left the kitchen and made my way to the counter where she was silently drooling over the fudge brownies, her fingers wrapped around a woman's wrist.
+From the last two months, I have always seen Cara with her babysitter Geena. But this time, she was with someone else. The woman looked like in her late forties, her dark hair gracefully tied in a bun. She was wearing a decent plum dress that accentuated her slim figure and tall built.
