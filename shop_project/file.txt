@@ -1,0 +1,2 @@
+{'name': 'sai', 'age': 25, 'phone': [9988774444, 99555588771], 'email': 'sai@gmail.com'}
+{'name': 'kiran', 'age': 25, 'phone': [99895522214, 99554466222], 'email': 'kiran@gmail.com'}

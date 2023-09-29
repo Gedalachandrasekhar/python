@@ -1,5 +1,0 @@
-data exteaction gathering the data from csv JSon database
-once we extract the data selecting hte data 
-what data we required this is called cleaning
-for these have to be done the pandas will use
-data analysis 
