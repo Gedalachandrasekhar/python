@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_class_14_transiton_4</title>
+    <style>
+        div{
+            width: 250px;
+            height:250px;
+            background-color: red;
+            transition: 3s;
+        }
+        div:hover{
+            width: 650px;
+            height:250px;
+            background-color: aqua;
+            transition-timing-function: linear;
+        }
+        #a{
+            width: 250px;
+            height:250px;
+            background-color:burlywood;
+            transition: 3s;
+        }
+        #a:hover{
+            width: 650px;
+            height:250px;
+            background-color: pink;
+            transition-timing-function:ease-in;
+        }
+        #b{
+            width: 250px;
+            height:250px;
+            background-color:ghostwhite;
+            transition: 3s;
+        }
+        #b:hover{
+            width: 650px;
+            height:250px;
+            background-color:aquamarine;
+            transition-timing-function:ease-in-out;
+        }
+        #c{
+            width: 250px;
+            height:250px;
+            background-color:gray;
+            transition: 3s;
+        }
+        #c:hover{
+            width: 650px;
+            height:250px;
+            background-color:honeydew;
+            transition-timing-function:ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+</body>
+</html>

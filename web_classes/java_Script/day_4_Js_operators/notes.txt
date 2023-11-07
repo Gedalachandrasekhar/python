@@ -1,0 +1,7 @@
+difference b/w (== and ===)                                                                                                16/15/2023
+
+            (==)                                                                                           (===)
+igt will not do a strict comparision                                                          it will do a strict comparision
+it will checks only the value                                                                 it will check value with data type
+
+

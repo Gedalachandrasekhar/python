@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <script>
+        //map function with single argument
+        a=[10,20,30]
+        b=a.map(function(x,y)
+        {
+            console.log(x);
+            return x+2
+        })
+        console.log(b);
+
+        //map fucnction with two arguments
+        a=[10,20,30]
+        b=a.map(function(x,y)
+        {
+            console.log(x);
+            console.log(y);
+            return x+y
+        })
+        console.log(b);
+
+        //map function with three arguments
+        a=[10,20,30]
+        b=a.map(function(x,y,z)
+        {
+            console.log(x);
+            console.log(y);
+            console.log(z);
+            return x+true
+        })
+        console.log(b);
+
+        //map fucntion with four arguments but this function will accept only three arguments
+        a=[10,20,30]
+        b=a.map(function(x,y,z,a)
+        {
+            console.log(x,y,z,a);
+            return x-y
+        })
+        console.log(b);
+
+        k=[1,2,3]
+        s=k.map(function(ele)
+        {
+            console.log(ele);
+            return 100
+        })
+        console.log(s);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a='hello'
+        console.log(a.split(''));
+        console.log(a);
+        console.log(a.toUpperCase(),"converted lowercase to uppercase");
+    
+        let s=[100,300,200,400,500]
+        t=s.map(function (a) {
+            return a+10
+        })
+        console.log(t)
+        k=t.filter(function(x) 
+        {
+            return x>=310
+        })
+        console.log(k);
+
+        f=k.reduce(function(c,d) {
+            return c+d    
+        })
+        console.log(f);
+        console.log();
+
+        let o=['p','q','r',10,20,30,100,100]
+        p=o.slice(0,o.length/2)
+        console.log(p.reverse());
+        j=o.slice(o.length/2,o.length)
+        console.log(j.reverse());
+        
+        let g=[10,20,30,50,80]
+        q=g.slice(0,g.length/2)
+        s=g.slice(g.length/2,g.length)
+        console.log(q.reverse());
+        console.log(s.reverse());
+</script>
+</head>
+<body>
+    
+</body>
+</html>

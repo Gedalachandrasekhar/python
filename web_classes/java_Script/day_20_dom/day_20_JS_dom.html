@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- <h1 id="a">hai</h1>
+    <h1 id="b">bye</h1>
+    <h1 id="a">helo</h1>
+    <script>
+        console.log(document.getElementById('a'))   
+        console.log(document.getElementById('a').innerHTML)   
+    </script> -->
+
+    <!-- <div id='a'>
+        <h1>Hello</h1>
+        <h2>Haii</h2>
+    </div>
+    <script>
+        console.log(document.getElementById('a').innerHTML)
+        
+        console.log(document.getElementById('a').innerText)
+
+        console.log(document.getElementById('a').textContent)
+    </script> -->
+    <h1 class="a">telangana</h1>
+    <h1 class="a">independence</h1>
+    <h1 class="a">karnataka</h1>
+    <script>
+        let f=document.getElementsByClassName('a')
+        // console.log(f);
+        // console.log(f[0]);
+        // console.log(f[1]);
+        // console.log(f[2]);
+
+        // for(let i=0;i<f.length;i++)
+        // {
+        //     // console.log(f[i]);
+        //     console.log(f[i].innerHTML);
+        // }
+
+        for(let i of f)
+        {
+            console.log(i);
+            console.log(i.innerHTML);
+        }
+</script>
+</body>
+</html>

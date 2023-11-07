@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        //creating an object 
+        let samopleObj={
+            eid:1,
+            ename:"sam",
+            job:'manager',
+            sal:20000,
+            skills:['html','css','Js']
+        }
+
+        console.log(samopleObj);
+        console.log(samopleObj.ename);
+        console.log(samopleObj.sal);
+        console.log(samopleObj.skills);
+        console.log(samopleObj.skills[0]);
+
+        //update operation
+            samopleObj.ename='ram'
+            console.log(samopleObj);
+
+        //delete operation
+            delete samopleObj.eid;
+            console.log(samopleObj);
+
+        //object keys extraction
+            console.log(Object.keys(samopleObj));
+
+        //object values
+            console.log(Object.values(samopleObj));
+
+        //object entries
+            let a=Object.entries(samopleObj)
+            console.log(a);
+
+        //removing braces from array 
+            console.log(a.flat()); //by defalut it will remove one sub brace of the array  
+
+        let x=Object.fromEntries(a)
+        console.log(x);
+
+        let s={
+            id:1,
+            name:'hiaa'
+        }
+        let t={
+            id:2,
+            name:'sai'
+        }
+        let u={
+            id:3,
+            name:'sai kiran valla pooja'
+        }
+
+        s.phn=98485855  //to add more keys and values for existing array
+        console.log(s);
+
+        let v=Object.assign(s,t,u) //check about assign method once again
+        console.log(v);
+
+        let k=[
+            {
+                name:'shenkar',
+                id:1
+            },
+
+            {
+                name:'darshan',
+                id:2
+            },
+
+            {
+                name:'praneeth',
+                id:3
+            }
+        ]
+        k.forEach(function f1(x) {
+         f=Object.assign(x,{company:'tcs'},{sal:10000})   
+        })
+        console.log(f);
+        console.log(k);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

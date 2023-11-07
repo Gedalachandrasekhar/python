@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="a" onclick="f1()">click me</button>
+    <h1></h1>
+    <script>
+        function f1() {
+            colorcode='0123456789abcdef'
+            color='#'
+            for (let i=0;i<=5;i++)
+            {
+               let x=Math.trunc(Math.random()*256)
+                color=color+colorcode.charAt(x)      
+            }
+            document.querySelector("body").style.backgroundColor=color
+            document.querySelector("h1").innerHTML=color
+        }
+    </script> -->
+
+    <!-- <button onclick="f1()">click me</button>
+    <h1></h1>
+    <script>
+        function f1() {
+                let red=Math.trunc(Math.random()*256)
+                let green=Math.trunc(Math.random()*256)
+                let blue=Math.trunc(Math.random()*256)
+                let alpha=Math.random()*2
+                let m=alpha.toFixed(2)
+            document.querySelector("body").style.backgroundColor=`rgba(${red}, ${green}, ${blue},${m})`;
+            document.querySelector("h1").innerHTML=`rgb(${red}, ${green}, ${blue},${m})`;
+        }
+    </script> -->
+
+    <!-- <button onclick="f1()">click me</button>
+    <h1></h1>
+    <script>
+        function f1() {
+                let red=Math.trunc(Math.random()*361)
+                let green=Math.trunc(Math.random()*101)
+                let blue=Math.trunc(Math.random()*101)
+            document.querySelector("body").style.backgroundColor=`hsl(${red}, ${green}%, ${blue}%)`;
+            document.querySelector("h1").innerHTML=`hsl(${red}, ${green}%, ${blue}%)`;
+        }
+    </script> -->
+
+
+    <!-- <h1></h1>
+    <input type="range" min="1" max="255" name="" id="a" oninput="f1()">
+    <input type="range" min="1" max="255" name="" id="b" oninput="f1()">
+    <input type="range" min="1" max="255" name="" id="c" oninput="f1()">
+    <script>
+        function f1() {
+        red=document.getElementById("a").value
+        green=document.getElementById("b").value
+        blue=document.getElementById("c").value
+        document.querySelector("body").style.backgroundColor=`rgb(${red}, ${green}, ${blue})`;
+        document.querySelector("h1").innerHTML=`rbg(${red}, ${green}, ${blue})`;
+        }
+        </script> -->
+
+
+        <!-- <h1 id="b">OTP GENERATOR </h1> 
+        <button onclick="f1()">otp</button>
+        <h1 id="a"></h1>
+        <script>
+            document.getElementById('b').style.textAlign="center"
+            function f1() {
+                otp=Math.trunc(Math.random()*10000000) //is there any way to insert range to random in js
+                let y=""
+                y=y+otp
+                let s=y.length
+                if (s==6)
+                {
+                    document.getElementById("a").innerHTML=otp
+                }
+            }
+        </script> -->
+
+        <!-- <script>
+            document.getElementById("b").style.textAlign="center"
+            function f1() {
+                // let a ="0123456789"
+                let b=" "
+                for (let i=0;i<=5;i++)
+                {
+                    z=Math.trunc(Math.random()*10)
+                    b=b+z
+                }
+                
+                document.getElementById("a").innerHTML=z
+            }
+        </script> -->
+        
+
+        <!-- program to change the properties of div  -->
+        <div></div>
+        width:<input type="range" min="1" max="500" id="a" oninput="f1()">
+        height:<input type="range" min="1" max="500" id="b" oninput="f1()">
+        range:<input type="range" min="1" max="500" id="c" oninput="f1()">
+        color:<input type="color" name="" id="color" oninput="f1()">
+        <script>
+            function f1() {
+                wdt=document.getElementById("a").value
+                hgt=document.getElementById("b").value
+                rds=document.getElementById("c").value
+                clr=document.getElementById("color").value
+
+                document.querySelector("div").style.width=wdt+"px"
+                document.querySelector("div").style.height=hgt+"px"
+                document.querySelector("div").style.borderRadius=rds+"px"
+                document.querySelector("div").style.backgroundColor=clr
+            }
+        </script>
+</body>
+</html>

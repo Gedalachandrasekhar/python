@@ -1,0 +1,148 @@
+Functions:
+        ==>these are a block/set  of code of insructions used to perform a specific task.
+        ==>functions are used to increase code reuseability
+        ==>functions also reduces number of lines in a code
+        ==>calling a function is manddatory otherwise function will not execute
+    syntax:
+            function function_name(arguments)
+            {
+                //statement
+            } 
+            function_name(parameters) //calling function
+    example:
+            <script>
+                console.log("start");
+                function firstFunction()
+                {
+                    console.log("hai this this function");
+                }
+                firstFunction()
+                console.log("end");
+            </script>
+
+    o/p:
+        start
+        hai this this function
+        end
+
+    Behaviour of functionn :
+                --->function without parameter and without return keyword
+                --->function without parameter and with return keyword
+                --->function with parameter and without return keyword
+                --->function with parameter and with return keyword
+
+ function without parameter and without return keyword :
+        in this Behaviour finction will not have any arguments. and while calling the function you will not pass any parameter.
+        Scince there is no return keyword we cannot get the output of the function on the main executution area.
+        example:
+                functon sum()
+                {
+                    let c=(10+30)
+                    console.log(c)
+                }
+                sum()
+function without parameter and with return keyword : 
+
+    Return:    
+        return is a keyword which stops the execution of function and gives the control to calling function.
+    example:
+            console.log("start"); //first example
+            function func1()
+            {
+                let k=100+200
+                console.log(k);
+                console.log('executed');
+                return k
+                console.log("last");
+            }
+            console.log(func1());
+            z=func1()
+            console.log(z);   
+            //o/p:
+                start
+                300
+                executed
+                300
+                300
+                executed
+                300
+            
+
+            //second example
+            function func2()
+            {
+                console.log("hello");
+                return
+            }
+            console.log(func2());
+            k=func2()
+            console.log(k);
+
+            //o/p:
+                hello
+                undefined
+                hello
+                undefined
+
+
+function with parameter and without return keyword :
+    example:
+        function add(a,b)//example
+            {
+                console.log(a);
+                console.log(b);
+                console.log(a+b);
+            }
+            add(20,'hai')
+            console.log("done");
+                o/p:
+                    20
+                    hai
+                    20hai
+                    done
+
+
+            function fun1(p,q) //example 2
+            {
+                console.log(p);
+                console.log(q);
+
+            }
+            fun1(100)
+                o/p:
+                    100
+                    undefined
+
+            function fun2(x,y,z) //example 3
+            {
+                console.log(x);
+                console.log(y);
+                console.log(z);
+            }
+            fun2(100,200,300,500,400,600)
+
+            o/p:
+                100
+                200
+                300
+
+function with parameter and without return keyword:                                                         19/05/2023
+            
+            x=Number(prompt("enter any value : ))
+            y=Number(prompt("enter any value : ))
+            function a1(a,b)
+            {
+                console.log(a+b)
+            }
+            a1(x,y)
+
+function with parameter and with return keyword:
+
+            console.log("start");
+            function sumof(x,y,z)
+            {
+                console.log(x+y+z);
+                console.log(x+y);
+                return x-y
+            }
+            sumof(1,2,3)

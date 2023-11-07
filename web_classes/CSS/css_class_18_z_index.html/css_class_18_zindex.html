@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z_index</title>
+    <style>
+        #a{
+            width:200px;
+            height:200px;
+            background-color: wheat;
+            border:2px solid black;
+            position: absolute;
+            z-index:1;
+        }
+        #b{
+            width: 200px;
+            height:200px;
+            background-color:rgba(185, 185, 249,0.6);
+            position:absolute;
+            top:25px;
+            left:23px;
+            z-index:2;
+            border: 2px solid black;
+        }
+        #c{
+            width: 200px;
+            height:200px;
+            background-color: rgba(220, 220, 220,0.6);
+            position: absolute;
+            top:40px;
+            left: 40px;
+            z-index:4;
+            border: 2px solid black;
+        }
+        #d{
+            width: 200px;
+            height:200px;
+            background-color:rgba(255, 192, 203,0.6);
+            position: absolute;
+            top: 55px;
+            left: 57px;
+            z-index:6;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="a">
+    </div>
+    <div id="b"></div>
+    <div id="c">
+    </div>
+    <div id="d"></div>
+</body>
+</html>

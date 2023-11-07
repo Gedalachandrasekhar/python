@@ -1,0 +1,70 @@
+types of functions:
+
+    1.Named function / general function /common function / function decleration / noraml function
+
+    2.Anonymus function / funcion expression 
+    
+    3.arrow function /funcion expression
+    
+    4.Higher order funcion and callback function
+    
+    5.immidiate invoking function / self calling function
+    
+1.Named function / general function /common function / function decleration / noraml function:
+
+            the function which having a name is called is Named funcion.
+
+            to calll the function we need to use the funcion.    
+
+            syntax:
+
+                    function funcionName(argument)
+                    {
+                        //statement
+                    }
+                    funcionname(paramaters)
+
+
+            example:
+                    
+                    function arthamatic(x,y)
+                    {
+                        console.log(x+y)
+                        console.log(x-y)
+                        console.log(x*y)
+                        console.log(x/y)
+                    }
+                    arthamatic(10,'10')
+
+                    o/p:
+                        1010
+                        0
+                        100
+                        1
+
+ 2.Anonymus function:
+
+                function without name is called as Anonymus funcion.
+                here the entire funcion is stored into a varibale.while calling the funcion we need to make use of this varibale.
+
+                syntax:
+                    
+                     var/let varibale_name=funcion(argument)
+                     {
+                        //statement
+                     } 
+                     varibale_name(paramaters)
+
+                example:
+   
+                    var a = function (a,b)
+                    {
+                        console.log(a+b);
+                        document.writeln(a+b)
+                    }
+                    a(10,20)
+
+                o/p:
+                    30    
+
+3.

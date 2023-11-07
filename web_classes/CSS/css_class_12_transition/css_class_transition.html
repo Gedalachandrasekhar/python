@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_class_12_transition</title>
+    <style>
+        #a1{
+            float:left;
+            background-color: aqua;
+            height: 500px;
+            width: 50%;
+            background-image: url(../css_class_11/boat.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: pink;
+        }
+        #a2{
+            float:left;
+            background-color: aqua;
+            height: 500px;
+            width: 50%;
+            background-image: url(../css_class_4/pexels-serinus-6559294.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: bisque;
+        }
+        #a1:hover{
+            background-image: url(../css_class_11/pexels-eberhard-grossgasteiger-1624496.jpg);
+            background-repeat: no-repeat;
+            background-size: 250px;
+            background-position: center;
+            transition: 5s;
+            font-size: 45px;
+            color:black;
+        }
+        #a2:hover{
+            background-image: url(../css_class_11/boat.jpg);
+            background-repeat: no-repeat;
+            background-size: 250px;
+            background-position:center;
+            transition: 5s;
+            font-size: 80px;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div  id="a1"><h1>l.b Nagar</h1></div>
+    <div  id="a2"><h1>newpet</h1></div>
+</body>
+</html>

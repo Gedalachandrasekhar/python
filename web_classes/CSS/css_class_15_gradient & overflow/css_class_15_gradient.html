@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_class_15_gradient</title>
+    <style>
+        h1{
+            text-align: center;
+            background-image: linear-gradient(pink,aquamarine,violet);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size:120px;
+        }
+        .a{
+            float: left;
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            background-image: linear-gradient(210deg,pink,aquamarine,violet);
+            transition: 3s;
+        }
+        div:hover{
+            width: 350px;
+            height: 300px;
+            background-image: linear-gradient(250deg,rgb(134, 134, 230),rgb(203, 213, 112),rgb(235, 104, 235));
+        }
+        #a{
+            width: 300px;
+            height: 300px;
+            background-image: radial-gradient(rgb(198, 86, 105),rgb(132, 221, 192),rgb(137, 229, 130));
+            transition: 3s;
+        }
+        #a:hover{
+            width: 350px;
+            height: 350px;
+            background-image: radial-gradient(rgb(96, 221, 169),rgb(194, 124, 181),rgb(250, 196, 88));
+            border-radius: 100%;
+        }
+        #b{
+            width: 300px;
+            height: 300px;
+            background-image:conic-gradient(pink,aquamarine,violet);
+        }
+        #b:hover{
+            width: 320px;
+            height: 320px;
+            background-image:conic-gradient(rgb(88, 158, 98),rgb(136, 136, 230),rgb(79, 107, 208));
+        }
+    </style>
+</head>
+<body>
+    <h1>HAI HELLO</h1>
+    <div class="a"></div>
+    <div class="a" id="a"></div>
+    <div class="a" id="b"></div>
+</body>
+</html>

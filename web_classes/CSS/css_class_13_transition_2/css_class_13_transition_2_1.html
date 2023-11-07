@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_class_13_transtion_2_1</title>
+    <style>
+        .a{
+            width:450px;
+            height:400px;
+            float:left;
+        }
+        #a{
+            background-image:url(../css_class_11/boat.jpg);
+            background-size:450px 400px;
+            background-repeat: no-repeat;
+            transition: 4s;
+            color: pink;
+        }
+        #a:hover{
+            background-size: 600px 550px;
+            font-size: 40px;
+            align-items: center;
+        }
+        #b{
+            background-image:url(../css_class_11/pexels-eberhard-grossgasteiger-1366919.jpg);
+            background-size:450px 400px;
+            background-repeat: no-repeat;
+            transition: 4s;
+            color: plum;
+        }
+        #b:hover{
+            background-size:600px 550px;
+            font-size: 40px;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="a" id="a">Good mourning</div>
+    <div class="a" id="b">good afternoon</div>
+</body>
+</html>

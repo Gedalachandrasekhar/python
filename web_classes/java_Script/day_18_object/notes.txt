@@ -1,0 +1,23 @@
+a objeccts in JS:
+
+    object is a real world entity which is having state and behaviour.
+    states are nothing but varibale
+    behaviour are functions 
+
+    {} will be consider as object literals 
+
+    object is a combination of key and value pair where each pair should be separated by coma(,)
+
+    example for object:
+
+        let sampleObj={
+            eid:1,
+            ename:"sam",
+            job:'manager',
+            sal:20000,
+            skills:['html','css','Js']
+        }
+
+        console.log(samopleObj);
+
+    

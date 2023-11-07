@@ -1,0 +1,3 @@
+Arrow Function:
+    arrow Function is introduced in E56
+    in arrow function,function keyword is not there and function keyword is replaced by arro 

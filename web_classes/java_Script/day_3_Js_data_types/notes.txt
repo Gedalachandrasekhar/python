@@ -1,0 +1,93 @@
+data typess:                                                                                                            15/05/2023
+
+    data types defines type of the data.
+
+primitive data types:
+
+    1.number
+    2.boolean
+    3.string
+    4.undefined
+
+1.number:
+    all the numeric data are consider as number data type.
+        ex:
+            let a=10
+            console.log(typeof(a))
+
+            let b=10.02
+            console.log(typeof(b))
+
+            let c=-0.5464
+            console.log(c)
+            console.log(typeof(c))
+
+2.boolean:
+    the variable which are hold the value True or False will be consider as boolean type.
+        ex:
+            let k=True
+            console.log(k)
+            console.log(typeof(k))
+
+            let l=False
+            console.log(l)
+            console.log(typeof(l))
+
+3.string:
+    the data which are enclosed with double quote or single quote or tactic will be consider as sttring type.
+        ex:
+            let m='hai'
+            console.log(m)
+            console.log(typeof(m))
+
+            let n="hai"
+            console.log(n)
+            console.log(typeof(n))
+
+            let o=`hai`
+            console.log(o)
+            console.log(typeof(o))
+
+4.undefined:
+    when the variable is just declared and not initalized to any value then Js engine will fills the value undefined.
+    the datatype of undefined is undefined itself.
+    undefined is also occurs during hoisting.
+        ex:
+            var f
+            console.log(f)
+            console.log(typeof(f))
+
+
+diff b/w undefined and not defined:
+
+             undefined                                                                              not defined
+
+1.undefined is a value of variable which is just not                      1.the variable which is exist in Js code then not defined will occurs
+declared
+
+2.undefined is a defualt value given by js engine.                         2.this is an error given by js engine
+
+
+
+deferece b/w null and undefined
+
+            undefined                                                                       null
+
+1.variable is defined and not initalized then undefined                       1.when the variable is initalized with a null then
+  will occurs                                                                   only null is occurs
+
+2.the data type of undefined is undefined                                   2.the datatype of null is null
+
+ex:                                                                           ex:
+    var f                                                                         var a=null
+    console.log(f)                                                                console.log(a)
+    console.log(typeof(f))                                                        console.log(typeof(a))
+
+operators:
+1.arthamactic operators (+,-,,*,/,)
+2.relational operators(<,>,=,<=,>=,!=,===)
+3.assignment operators(=,+=,-+,*=,/=)
+4.logical operators(&&,||,!)
+5.conditonal operators(?)
+
+

@@ -1,0 +1,23 @@
+div{
+    background-color:aqua; 
+    width:533px;
+    height:533px;
+    background-image:url(moon.png);
+    background-position:-40px 325px;
+    background-size:250px;
+    background-repeat:no-repeat;
+  }
+  
+  
+  body{
+    background-image:url(moon.png);
+    background-color:pink;
+    background-repeat:no-repeat;
+    background-size:800px;
+    background-position:300px 300px;
+    color:#ffff;
+  }
+  h1{
+    text-align:center;
+  }
+  

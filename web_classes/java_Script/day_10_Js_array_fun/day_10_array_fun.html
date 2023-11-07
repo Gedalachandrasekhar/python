@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        //concat() 
+        let a=[10,20,30,20]
+        let b=[40,50,60]
+        let c=[70,80,90]
+         z=[]
+        
+        // console.log(a.concat(b,c));
+        // document.write(a.concat(b))
+        // window.alert(a.concat(b))
+
+        //indexof() 
+        console.log(a.indexOf(20,2));
+        console.log(a.indexOf(30));
+        console.log(b.indexOf(a.indexOf(50,3)));//if value does't present in array then it return -1 
+       
+        //wap to print all the index values
+        for (let i = 0; i < a.length; i++) 
+        {
+            if (a[i]==20) 
+            {
+                z.push(i)  
+            }
+           
+            
+        }
+        document.write(z);
+        window.alert(z);
+
+
+        //length()
+
+        let d=[10,20,30]
+        console.log("length of collection",d.length);
+        
+        //includes()
+        let g=[10,20,30,50,90,70]
+        console.log(g.includes(80));
+
+        
+        //push
+        let j=[1,2,3,4]
+        console.log(j);
+        console.log("push method",j.push(50));
+        console.log(j); 
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- method 1
+    <button onclick="fun1()">click me</button>
+    <script>
+        function fun1() {
+            window.alert('good afternoon')
+        }
+
+    </script> -->
+
+    <!-- method 2
+    <button>click me</button>
+    <script>
+        x=document.querySelector('button')
+        x.onclick=function f1()
+        {
+            window.alert('good afternooon')
+        }
+    </script> -->
+    
+    <!-- method 3 -->
+     <!-- <button>click me</button>
+     <script>
+        y=document.querySelectorAll('button')
+        console.log(y)
+        y[0].addEventListener("click",function f2() {
+                    window.alert('good afternoon')            
+        })
+     </script> -->
+     <!-- <input type="text" id="a">
+     <img src="../../../assignments/weebsite_rep/images/thumbnail-smile.jpg" alt="" style="height:100px;width:100px;" onclick="f1()">
+     <hr>
+     <h1 id="b"></h1>
+     <script>
+function f1()
+        {
+            f=document.getElementById('a').value 
+            console.log(f);
+            document.getElementById('b').innerHTML=f
+        }
+     </script> -->
+        
+     <input type="text" id="a">
+     <input type="text" id="b"><br>
+     <button onclick="sum()">sum</button>
+     <button onclick="sb()">sub</button>
+     <button onclick="mu()">mul</button>
+     <button onclick="div()">div</button>
+     <hr>
+     <h1 id="c">add </h1>
+     <h1 id="d">sub </h1>
+     <h1 id="e">mul </h1>
+     <h1 id="f">div </h1>
+     <script>
+        function sum(a,b)  {
+            v1=document.getElementById('a').value 
+            v2=document.getElementById('b').value 
+            ad=Number(v1)+Number(v2)
+            document.getElementById('c').innerHTML=ad
+        }
+
+        function sb(a,b)  {
+            v1=document.getElementById('a').value 
+            v2=document.getElementById('b').value 
+            ad=Number(v1)-Number(v2)
+            document.getElementById('d').innerHTML=ad
+        }
+        function mu(a,b)  {
+            v1=document.getElementById('a').value 
+            v2=document.getElementById('b').value 
+            ad=Number(v1)*Number(v2)
+            document.getElementById('e').innerHTML=ad
+        }
+        function div(a,b)  {
+            v1=document.getElementById('a').value 
+            v2=document.getElementById('b').value 
+            ad=Number(v1)/Number(v2)
+            document.getElementById('f').innerHTML=ad
+        }
+     </script>
+</body>
+</html>

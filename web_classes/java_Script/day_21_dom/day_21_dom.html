@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="b">Hai</h1>
+    <h1>hello</h1>
+    <h1 id="a">Haiiii</h1>
+    <h1>Byeeeeee</h1>
+    <h2 class="b">hello</h2>
+    <p class="b">bye</p>
+    <script>
+        // z=document.getElementsByClassName('b')
+        // console.log(z);
+        // console.log(Array.isArray(z));
+        // //to convert collection into array
+        // k=Array.from(z)
+        // console.log(k);
+        // console.log(Array.isArray(k));
+        // k.forEach(x => {
+        //     console.log(x);
+        //     console.log(x.innerHTML);          
+        // });
+        // k.map(y =>
+        // {
+        //     // console.log(y);
+        //     console.log(y.innnerHTMl);
+        // })
+
+        //tag selector
+            // k=document.getElementsByTagName('h1')
+            // console.log(k);
+            // console.log(k[0]='namasthe');
+            // console.log(k[1]);
+            // console.log(k[0].innerHTML);
+
+            // // for loop
+            // for (let i=0;i<k.length;i++){
+            //         console.log(k[i]);
+            //         console.log(k[i].innerHTML);
+            // }
+
+            // for (let i of k)
+            // {
+            //     console.log(i);
+            //     console.log(i.innerHTML);
+            // }
+
+            // let s=Array.from(k)
+            // console.log(s);
+            // console.log(Array.isArray(s));
+
+            // k=document.querySelector('.b')
+            // console.log(k);
+            // console.log(k.innerHTML);
+            // console.log(document.querySelector('h1'));
+            // console.log(document.querySelector('#a').innerHTML)
+            // console.log(document.querySelector('h2').innerHTML);
+
+            // queryselectorAll()
+            f=document.querySelectorAll('.b')
+            console.log(f);
+            console.log(f[0]);
+            console.log(f[0].innerHTML);
+            
+            for (let i=0;i<f.length;i++)
+                {
+                    console.log(f[i]);
+                    console.log(f[i].innnerHTML);
+
+                }   
+
+            for (i of f)
+            {
+                console.log(i);
+                console.log(i.innerHTML);
+            }
+ </script>
+</body>
+</html>

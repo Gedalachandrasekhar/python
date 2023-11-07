@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="button" value="subscribe" onclick="f1()">
+    <script>
+            document.querySelector("input").style.backgroundColor="red"
+            document.querySelector("input").style.color="white"
+            f=document.querySelector("input").value
+        function f1() {
+            if (f=="subscribe"){
+                document.querySelector("input").style.backgroundColor="grey"
+                document.querySelector("input").style.color="white"
+                f=document.querySelector("input").value="subscribed"
+            }
+        // function f2() {
+        //     if (f=="subscribed"){
+        //         document.querySelector("input").style.backgroundColor="red"
+        //         document.querySelector("input").style.color="white"
+        //         f=document.querySelector("input").value="Subscribe"
+        //     }
+        }
+    </script>
+    
+</body>
+</html>

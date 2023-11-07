@@ -1,0 +1,5 @@
+document.writeln("hello")
+document.write('hai')
+window.alert('hai')
+alert('how are you')
+console.log('hai')

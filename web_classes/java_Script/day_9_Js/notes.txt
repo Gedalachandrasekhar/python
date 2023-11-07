@@ -1,0 +1,15 @@
+function hoisting :
+    it is a prrocess of utiluzation of function before its delclearion.
+    function hoisting can be achive only in named function,because here the function will be not assigned as a value for a varibale.
+
+arrays:
+    it is a collection of homogenious or hetrogenious elements under a single varibale.Js arrays can store the data's of diffrent data types.
+    the length of the array will be dynamic in nature.
+
+diffence b/w java array and javascript array:
+
+                    java array                                                                                      javascript array
+
+    arrays can hold only homogenious elements.                                                           it can hold bouth hetrogenious and hetrogenious elements.
+
+    length will be fixed.                                                                                length is not fixed.

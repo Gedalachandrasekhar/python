@@ -1,0 +1,15 @@
+forEach:
+    forEach method also performs common operation for every elements of array but foreach cannot return anything it always retrun undefined.
+    bacause of this map method is introduced in ES6 (Ecma Script)
+
+    syntax:
+        varibale=arrayname.fucntion(element,index,array)
+        {
+            function statement
+            return 
+        }
+        console.log(varibale)
+
+some():
+    this methods results true or false
+    if any one of the 

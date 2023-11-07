@@ -1,0 +1,3 @@
+conditional statement:
+    syntax:
+        (condtion)?statement:statement1;

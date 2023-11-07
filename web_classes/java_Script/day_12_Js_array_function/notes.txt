@@ -1,0 +1,22 @@
+Map:
+    map is array higher order method
+    this method will accept fucntion as an parameter
+    when the common operation needs to perform on each ono every array elements map methods will be used
+    map method will return the *updated array*
+
+    syntax:
+
+        variable=arrayname.map(function(elements,index,array)){
+            statemets
+        })
+        console.log(arrayname)
+
+    example:
+
+        a=[10,20,30]
+        b=a.map(function(x,y)
+        {
+            console.log(x);
+            return x+2
+        })
+        console.log(b);
